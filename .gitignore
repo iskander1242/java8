@@ -1,0 +1,66 @@
+# common ignore
+*~
+MANIFEST.MF
+target/
+tmp/
+out/
+build/
+docker/install/
+*.data
+/**/**/.lck
+
+
+*.class
+
+# Package Files #
+*.jar
+*.war
+
+# eclipse specific
+.settings
+.project
+.classpath
+.metadata
+
+# idea specific
+.idea/*
+!.idea/codeStyleSettings.xml
+!.idea/codeStyles
+*.iml
+*.ipr
+*.iws
+
+# linux service script
+scripts/*
+!scripts/installLinuxService.sh
+
+# gradle specific
+.gradle/
+!/gradle/wrapper/
+!gradle-wrapper.jar
+build
+!gradlew
+!gradlew.bat
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# unix specific
+.DS_Store
+.directory
+
+# static plugins
+.pmd
+
+# log files
+*.log
+*.txt
+
+# explicit ehcache working directories exclusion
+/cache
+
+
+/data
+
+#java generated classes
+generated
